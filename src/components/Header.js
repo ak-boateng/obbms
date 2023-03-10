@@ -7,8 +7,8 @@ const Header = () => {
       <div className='p-5 flex container mx-40 justify-between'>
       <p>Quick Call : 030 456 1111</p>
       <ul className=' font-semibold text-1xl flex gap-6'>
-        <a href='#'className='inline-flex'><i className='mx-2 my-1'><FaLock /></i>Admin Login</a>
-        <a href='#'className='inline-flex'><i className='mx-2 my-1'><FaLock /></i>Donor Login</a>
+        <a href='google.com'className='inline-flex'><i className='mx-2 my-1'><FaLock /></i>Admin Login</a>
+        <a href='google.com'className='inline-flex'><i className='mx-2 my-1'><FaLock /></i>Donor Login</a>
         
       </ul>
       </div>
