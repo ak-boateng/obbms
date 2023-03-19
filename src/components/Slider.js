@@ -16,8 +16,7 @@ const Slider = () => {
     const slides =[{url:slide1}, {url:slide2}, {url:slide3}, {url:slide4}, {url:slide5}];
 
 
-
-
+    
     const [currentIndex, setCurrentIndex] = useState(0);
 
   const prevSlide = () => {
@@ -42,6 +41,7 @@ const Slider = () => {
         style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
         className='w-full h-full rounded-2xl bg-center bg-cover duration-700'
       ></div>
+      
       {/* Left Arrow */}
       <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
         <BsChevronCompactLeft onClick={prevSlide} size={30} />
@@ -60,6 +60,10 @@ const Slider = () => {
             <RxDotFilled />
           </div>
         ))}
+      </div>
+      <div className='absolute lg:left-40 lg:bottom-40 left-20 bottom-40 z-30 '>
+        <p className='drop-shadow-xl lg:text-6xl text-3xl text-white font-bold mb-4'>Donate Now To Help Save A Life</p>
+        <button className='bg-red-700 p-4 rounded-lg text-white font-medium w-40 lg:text-2xl'>Learn More</button>
       </div>
     </div>
   )
