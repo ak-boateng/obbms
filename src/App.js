@@ -8,6 +8,7 @@ import Slider from './components/Slider';
 import Donate from './pages/Donate';
 import Home from './pages/Home';
 import Request from './pages/Request';
+import LoginPage from './pages/LoginPage';
 
 function App() {
   return (
@@ -16,10 +17,11 @@ function App() {
       <Header />
       <NavBar/>
       <Routes>
-        <Route path="" element={<Slider/>}/>
+        <Route path="/" element={<Slider/>}/>
         <Route path="/donate" element={<Donate/>}/>
         <Route path="/home" element={<Home/>}/>
         <Route path="/request" element={<Request/>}/>
+        <Route path="/login" element={<LoginPage/>}/>
       </Routes>
       <Footer/>
     </BrowserRouter>
