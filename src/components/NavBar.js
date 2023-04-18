@@ -10,8 +10,8 @@ const NavBar = () => {
 
 
   return (
-    <header className='border-b border-gray-300 py-4'>
-      <div className='flex items-center justify-between xl:max-w-8xl xl:mx-auto lg:max-w-full px-[8%] '>
+    <header className='border-b border-gray-300 py-4 '>
+      <div className='flex items-center justify-between xl:max-w-8xl xl:mx-auto lg:max-w-full px-[8%] flex-wrap'>
         <NavLink to="/home"><img className='w-1/6' src={logo} alt="" ></img></NavLink>
         <FiMenu className='lg:hidden  block h-6 w-6 cursor-pointer' onClick={() => setOpen(!open)} />
 

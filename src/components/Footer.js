@@ -9,7 +9,7 @@ import { NavLink } from 'react-router-dom'
 
 const Footer = () => {
     return (
-        <footer className="bg-white">
+        <footer className="bg-white ">
             <div className="mx-auto w-full container lg:p-4 p-6 sm:p-6">
                 <div className="lg:grid lg:grid-cols-2 block">
                     <div className="mb-6 md:mb-0">
