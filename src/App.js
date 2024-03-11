@@ -18,7 +18,7 @@ function App() {
       <NavBar/>
       <Routes>
         <Route path="/" element={<Slider/>}/>
-        <Route path="/donate" element={<Donate/>}/>
+        <Route path="/donate" element={<Donarte/>}/>
         <Route path="/home" element={<Home/>}/>
         <Route path="/request" element={<Request/>}/>
         <Route path="/donorlogin" element={<LoginPage/>}/>
